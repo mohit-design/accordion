@@ -1,0 +1,33 @@
+/*------- Font Family Starts -------*/
+
+@font-face {
+	font-family: "RobotoSlab-Light";
+	src: url("../font/RobotoSlab-Light.ttf");
+}
+@font-face {
+	font-family: "RobotoSlab-Regular";
+	src: url("../font/RobotoSlab-Regular.ttf");
+}
+
+/*------- Font Family Ends -------*/
+
+/*------- Reset CSS Starts -------*/
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 10px; letter-spacing: 1px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+body { background-color: #eee; }
+li { list-style: none; }
+a { text-decoration: none; }
+
+/*------- Reset CSS Ends -------*/
+
+/*------- Accordian Menu CSS Starts -------*/
+
+.accordian-menu > h1 { color: #000; font-family: "RobotoSlab-Regular"; font-size: 3.6rem; margin: 15px 0; text-align: center; }
+.accordian > ul > li { margin-bottom: 15px; }
+.accordian > ul > li > a { background-color: #000; color: #fff; display: block; font-family: "RobotoSlab-Regular"; font-size: 2rem; padding: 10px; }
+.accordian > ul > li.active > ul { display: block; }
+.accordian > ul > li > ul { background-color: #fff; display: none; padding: 15px; }
+.accordian > ul > li > ul > li > a { color: #000; font-family: "RobotoSlab-Light"; font-size: 1.8rem; }
+
+/*------- Accordian Menu CSS Ends -------*/
